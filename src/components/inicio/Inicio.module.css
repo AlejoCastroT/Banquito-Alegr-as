@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: calc(100vh - 100px); /* Ajustar la altura tomando en cuenta el header fijo */
+    background-color: #337CCF; /* Establecer el color de fondo */
+    color: white; /* Asegúrate de que el texto sea visible sobre el fondo azul */
+    text-align: center; /* Centrar el texto dentro del h3 */
+}
+
+.titulo {
+    font-size: 90px; /* Ajustar el tamaño de la fuente según tus necesidades */
+    margin: 0; /* Eliminar cualquier margen predeterminado */
+}
+
+
+.imagen1Container,
+.imagen2Container {
+    position: relative; /* Importante para el posicionamiento de las imágenes */
+}
+
+.image1,
+.image2 {
+    max-width: 800px; /* Ajusta el tamaño máximo según sea necesario */
+    height: 300px; /* Para mantener la proporción de la imagen */
+    animation: float 3s ease-in-out infinite; /* Animación de flotación */
+}
+
+.image1 {
+    transform: rotate(5deg); /* Rotación de la primera imagen */
+}
+
+.image2 {
+    transform: rotate(-8deg); /* Rotación de la segunda imagen */
+}
+
+
+@keyframes float {
+    0%,100% {
+        transform: translateY(1); /* Posición inicial y final */
+    }
+    50% {
+        transform: translateY(-10px); /* Posición superior de la animación */
+    }
+}

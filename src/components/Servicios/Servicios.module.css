@@ -1,0 +1,74 @@
+/* Estilos para el contenedor principal */
+#servicios {
+    padding: 50px 0; /* Espaciado interno */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    margin-top: 50px; /* Espacio superior */
+    margin-bottom: 50px; /* Espacio inferior */
+}
+
+.container__trust{
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.trust {
+    max-width: 1400px; /* Ancho máximo del contenido aumentado */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 80px; /* Espaciado interno aumentado */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el texto dentro de "Trust" */
+.text__trust {
+    text-align: center; /* Centrado del texto */
+    margin-bottom: 30px; /* Espaciado inferior */
+}
+
+.text__trust h1 {
+    font-size: 32px; /* Tamaño del título aumentado */
+    margin-bottom: 10px; /* Espaciado inferior */
+    color: #337CCF;
+}
+
+.text__trust p {
+    color: #666; /* Color de texto gris */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+/* Estilos para los contenedores de las tarjetas */
+.container__box_cardPrimary {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Envolver elementos */
+    gap: 20px; /* Espaciado entre tarjetas */
+}
+
+/* Estilos para las tarjetas individuales */
+.card__trust {
+    flex: 1; /* Distribuir espacio de manera uniforme */
+    max-width: 300px; /* Ancho máximo de la tarjeta */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f5f5f5; /* Fondo gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrado del contenido */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición para suavizar el efecto */
+}
+
+.card__trust:hover {
+    background-color: #e0e0e0; /* Fondo más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el mouse */
+}
+
+.card__trust h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    color: #337CCF;
+}
+
+.card__trust p {
+    color: #666; /* Color de texto gris */
+    font-size: 16px; /* Tamaño del texto */
+}

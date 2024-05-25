@@ -1,0 +1,55 @@
+/* Estilos para el contenedor principal */
+.container__cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.div__offset {
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilos para la sección "cover" */
+.cover {
+    display: flex;
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center;
+    max-width: 80%; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 40px; /* Espaciado interno */
+}
+
+/* Estilos para el texto dentro de "cover" */
+.text__cover {
+    flex: 1; /* Ocupar el espacio restante */
+    padding-right: 20px; /* Espaciado derecho */
+}
+
+.text__cover h1 {
+    font-size: 40px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+    color: #337CCF; /* Color del título */
+}
+
+.text__cover p {
+    color: #666; /* Color de texto gris */
+    font-size: 25px; /* Tamaño del texto */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+
+/* Estilos para la sección de imagen */
+.image__cover {
+    flex: 1; /* Ocupar el espacio restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__cover img {
+    max-width: 400px; /* Ancho máximo de la imagen */
+    height: auto; /* Ajuste de altura automático */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-right: 200px;
+}
