@@ -10,7 +10,7 @@ function Contacto() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí puedes agregar la lógica para enviar el mensaje
+        // la lógica para enviar el mensaje
         console.log("Mensaje enviado:", { asunto, nombre, correo, mensaje });
         // Limpia los campos después de enviar el mensaje
         setAsunto("");
